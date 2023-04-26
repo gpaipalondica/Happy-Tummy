@@ -1,0 +1,33 @@
+.contactCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.contactCard {
+    margin: 0 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: lightgray;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1cm;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+
+  
+.contactCard a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+
+.contactCard img {
+    width: 250px
+  }  
+
+
